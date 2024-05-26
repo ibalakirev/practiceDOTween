@@ -4,9 +4,9 @@ using UnityEngine;
 public class RotaterCube : MonoBehaviour
 {
     [SerializeField] private float _duration;
-    [SerializeField] Vector3 _positionRotation;
-    [SerializeField] int _repeats;
-    [SerializeField] LoopType _loopType;
+    [SerializeField] private Vector3 _positionRotation;
+    [SerializeField] private int _repeats;
+    [SerializeField] private LoopType _loopType;
 
     private void Start()
     {

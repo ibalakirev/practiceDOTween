@@ -5,9 +5,9 @@ public class ColorizerCylinder : MonoBehaviour
 {
     [SerializeField] private MeshRenderer _meshRenderer;
     [SerializeField] private Color _color;
-    [SerializeField] float _duration;
+    [SerializeField] private float _duration;
     [SerializeField] private int _repeats;
-    [SerializeField] LoopType _loopType;
+    [SerializeField] private LoopType _loopType;
 
     private void Start()
     {

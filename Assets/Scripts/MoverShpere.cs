@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class MoverShpere : MonoBehaviour
 {
-    [SerializeField] Transform _targetPosition;
-    [SerializeField] float _duration;
-    [SerializeField] float _delay;
-    [SerializeField] int _repeats;
-    [SerializeField] LoopType _loopType;
+    [SerializeField] private Transform _targetPosition;
+    [SerializeField] private float _duration;
+    [SerializeField] private float _delay;
+    [SerializeField] private int _repeats;
+    [SerializeField] private LoopType _loopType;
 
     private void Start()
     {
